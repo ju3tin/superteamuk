@@ -6,8 +6,14 @@ import Navcomponent2 from '../../../../components/Navigation/navwidget3';
 import Chatwidget from '../../../../components/Chat/chatwidget';
 import Chatwidget1 from '../../../../components/Chat/chatwidget1';
 import Header1 from '../../../../components/Header';
+
 function ProfileAbout() {
+  const script = document.createElement("script");
+  script.src = "/js/app.bundle.min.js";
+  script.async = true;
+  document.body.appendChild(script);
   return (
+    
     <div>
     <Navcomponent />
     <Navcomponent1 />
