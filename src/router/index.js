@@ -32,17 +32,18 @@ export default function AppRouter() {
   return (
     <Router>
       <Routes>
+      <Route path='/' element={<Login />} />
         <Route path='/login.html' element={<Login />} />
         <Route path='/tiktok/:videoId' element={<Tiktok />} />
         <Route path='/instagram/:videoId' element={<Instagram />} />
         <Route path='/admin' element={<MainAdmin />} />
-          <Route index element={<Dashboard />} />
+          <Route index element={<Login />} />
           <Route path='/admin/setting' element={<Setting />} />
         
 
         
-        <Route path="/" element={<Main />} />
-          <Route index element={<Home />} />
+        {/* <Route path="/" element={<Main />} />
+        <Route index element={<Login />} /> */} 
           <Route path='/about' element={<About />} />
           <Route path='/test' element={<Test />} />
           <Route path='/west' element={<West />} />
