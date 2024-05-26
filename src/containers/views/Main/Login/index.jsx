@@ -48,7 +48,7 @@ function LoginPage() {
       <div className="landing-form">
         {/* Login Form */}
         <div className="form-box login-register-form-element" style={activeTab === 0 ? formStyleActive : formStyleInactive}>
-          <img className="form-box-decoration overflowing" src="img/landing/rocket.png" alt="rocket" />
+          <img className="form-box-decoration overflowing" src="/img/landing/rocket.png" alt="rocket" />
           <h2 className="form-box-title">Account Login</h2>
           <form className="form">
             <div className="form-row">
@@ -123,7 +123,7 @@ function LoginPage() {
         </div>
         {/* Additional forms */}
         <div className="form-box login-register-form-element" style={activeTab === 1 ? formStyleActive : formStyleInactive}>
-          <img className="form-box-decoration overflowing" src="img/landing/rocket.png" alt="rocket" />
+          <img className="form-box-decoration overflowing" src="/img/landing/rocket.png" alt="rocket" />
           <h2 className="form-box-title">Create your Account!</h2>
           <form className="form">
             <div className="form-row">

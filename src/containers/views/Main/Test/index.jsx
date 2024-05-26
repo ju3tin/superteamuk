@@ -52,7 +52,7 @@ import React from 'react'
       <!-- FORM BOX -->
       <div class="form-box login-register-form-element">
         <!-- FORM BOX DECORATION -->
-        <img class="form-box-decoration overflowing" src="img/landing/rocket.png" alt="rocket">
+        <img class="form-box-decoration overflowing" src="/img/landing/rocket.png" alt="rocket">
         <!-- /FORM BOX DECORATION -->
 
         <!-- FORM BOX TITLE -->
@@ -190,7 +190,7 @@ import React from 'react'
       <!-- FORM BOX -->
       <div class="form-box login-register-form-element">
         <!-- FORM BOX DECORATION -->
-        <img class="form-box-decoration" src="img/landing/rocket.png" alt="rocket">
+        <img class="form-box-decoration" src="/img/landing/rocket.png" alt="rocket">
         <!-- /FORM BOX DECORATION -->
 
         <!-- FORM BOX TITLE -->

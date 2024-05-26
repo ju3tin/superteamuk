@@ -2,7 +2,7 @@ function navwidget1() {
     return (
 <nav id="navigation-widget" className="navigation-widget navigation-widget-desktop sidebar left hidden" data-simplebar>
    <figure className="navigation-widget-cover liquid">
-      <img src="img/cover/01.jpg" alt="cover-01" />
+      <img src="/img/cover/01.jpg" alt="cover-01" />
     </figure>
  
     <div className="user-short-description">
@@ -11,7 +11,7 @@ function navwidget1() {
           <div className="hexagon-120-132"></div>
          </div>
         <div className="user-avatar-content">
-           <div className="hexagon-image-82-90" data-src="img/avatar/01.jpg"></div>
+           <div className="hexagon-image-82-90" data-src="/img/avatar/01.jpg"></div>
          </div>
         <div className="user-avatar-progress">
            <div className="hexagon-progress-100-110"></div>
@@ -34,19 +34,19 @@ function navwidget1() {
      </div>
      <div className="badge-list small">
         <div className="badge-item">
-        <img src="img/badge/gold-s.png" alt="badge-gold-s" />
+        <img src="/img/badge/gold-s.png" alt="badge-gold-s" />
       </div>
      <div className="badge-item">
-        <img src="img/badge/age-s.png" alt="badge-age-s" />
+        <img src="/img/badge/age-s.png" alt="badge-age-s" />
       </div>
      <div className="badge-item">
-        <img src="img/badge/caffeinated-s.png" alt="badge-caffeinated-s" />
+        <img src="/img/badge/caffeinated-s.png" alt="badge-caffeinated-s" />
       </div>
      <div className="badge-item">
-        <img src="img/badge/warrior-s.png" alt="badge-warrior-s" />
+        <img src="/img/badge/warrior-s.png" alt="badge-warrior-s" />
       </div>
      <a className="badge-item" href="profile-badges.html">
-        <img src="img/badge/blank-s.png" alt="badge-blank-s" />
+        <img src="/img/badge/blank-s.png" alt="badge-blank-s" />
          <p className="badge-item-text">+9</p>
         </a>
       </div>

@@ -20,7 +20,7 @@ function navwidget2() {
       
       <div className="user-avatar-content">
         
-        <div className="hexagon-image-30-32" data-src="img/avatar/01.jpg"></div>
+        <div className="hexagon-image-30-32" data-src="/img/avatar/01.jpg"></div>
         
       </div>
       
