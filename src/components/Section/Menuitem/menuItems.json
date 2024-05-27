@@ -1,0 +1,79 @@
+[
+    {
+      "id": "about",
+      "name": "profile",
+      "href": "profile-about.html",
+      "icon": "svg-profile",
+      "text": "About"
+    },
+    {
+      "id": "timeline",
+      "name": "timeline",
+      "href": "profile-timeline.html",
+      "icon": "svg-timeline",
+      "text": "Timeline"
+    },
+    {
+      "id": "friends",
+      "name": "friend",
+      "href": "profile-friends.html",
+      "icon": "svg-friend",
+      "text": "Friends"
+    },
+    {
+      "id": "groups",
+      "name": "group",
+      "href": "profile-groups.html",
+      "icon": "svg-group",
+      "text": "Groups"
+    },
+    {
+      "id": "photos",
+      "name": "photos",
+      "href": "profile-photos.html",
+      "icon": "svg-photos",
+      "text": "Photos"
+    },
+    {
+      "id": "videos",
+      "name": "videos",
+      "href": "profile-videos.html",
+      "icon": "svg-videos",
+      "text": "Videos"
+    },
+    {
+      "id": "badges",
+      "name": "badges",
+      "href": "profile-badges.html",
+      "icon": "svg-badges",
+      "text": "Badges"
+    },
+    {
+      "id": "streams",
+      "name": "streams",
+      "href": "profile-stream.html",
+      "icon": "svg-streams",
+      "text": "Streams"
+    },
+    {
+      "id": "blog",
+      "name": "blog-posts",
+      "href": "profile-blog.html",
+      "icon": "svg-blog-posts",
+      "text": "Blog"
+    },
+    {
+      "id": "forum",
+      "name": "forum",
+      "href": "profile-forum.html",
+      "icon": "svg-forum",
+      "text": "Forum"
+    },
+    {
+      "id": "store",
+      "name": "store",
+      "href": "profile-store.html",
+      "icon": "svg-store",
+      "text": "Store"
+    }
+  ]
