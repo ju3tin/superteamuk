@@ -87,7 +87,7 @@ var external_mongoose_default = /*#__PURE__*/__webpack_require__.n(external_mong
 
 async function connect() {
     try {
-        external_mongoose_default().connect(process.env.MONGO_URI);
+        external_mongoose_default().connect("mongodb+srv://admin123a:admin123a@cluster0.yudvymo.mongodb.net/membership?retryWrites=true&w=majority&appName=Cluster0");
         const connection = (external_mongoose_default()).connection;
         connection.on("connected", ()=>{
             console.log("MongoDB connected successfully");
