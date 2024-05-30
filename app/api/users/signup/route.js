@@ -1,5 +1,5 @@
 import dbConnect from '../../../../libs/mongodb';
-import User from "../../../../models/User";
+import User from "../../../../models/user";
 import {connect} from "../../../../dbConfig/dbConfig";
 import { NextRequest, NextResponse } from "next/server";
 import bcryptjs from "bcryptjs";
