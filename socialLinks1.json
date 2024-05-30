@@ -1,0 +1,6 @@
+[
+    { "name": "Facebook", "icon": "<FacebookLogo />", "url": "https://www.facebook.com" },
+    { "name": "Twitter", "icon": "<TwitterLogo />", "url": "https://www.twitter.com" },
+    { "name": "Twitch", "icon": "<TwitchLogo />", "url": "https://www.twitch.tv" },
+    { "name": "Youtube", "icon": "<YoutubeLogo />", "url": "https://www.youtube.com" }
+  ]
