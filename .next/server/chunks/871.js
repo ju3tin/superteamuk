@@ -14,7 +14,7 @@ exports.modules = {
 
 const connectMongoDB = async ()=>{
     try {
-        await mongoose__WEBPACK_IMPORTED_MODULE_0___default().connect(process.env.MONGODB_URI);
+        await mongoose__WEBPACK_IMPORTED_MODULE_0___default().connect("mongodb+srv://admin123a:admin123a@cluster0.yudvymo.mongodb.net/membership?retryWrites=true&w=majority&appName=Cluster0");
         console.log("Connected to MongoDB.");
     } catch (error) {
         console.log(error);

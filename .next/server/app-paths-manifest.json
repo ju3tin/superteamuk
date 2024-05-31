@@ -9,8 +9,8 @@
   "/editTopic/[id]/page": "app/editTopic/[id]/page.js",
   "/login/page": "app/login/page.js",
   "/api/topics/[id]/route": "app/api/topics/[id]/route.js",
-  "/api/users/signup/route": "app/api/users/signup/route.js",
   "/api/users/login/route": "app/api/users/login/route.js",
+  "/api/users/signup/route": "app/api/users/signup/route.js",
   "/api/users/signup1/route": "app/api/users/signup1/route.js",
   "/profile/profileabout/page": "app/profile/profileabout/page.js"
 }

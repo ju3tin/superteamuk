@@ -9,8 +9,8 @@
   "/editTopic/[id]/page": "/editTopic/[id]",
   "/login/page": "/login",
   "/api/topics/[id]/route": "/api/topics/[id]",
-  "/api/users/signup/route": "/api/users/signup",
   "/api/users/login/route": "/api/users/login",
+  "/api/users/signup/route": "/api/users/signup",
   "/api/users/signup1/route": "/api/users/signup1",
   "/profile/profileabout/page": "/profile/profileabout"
 }
