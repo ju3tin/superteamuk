@@ -4,14 +4,13 @@
   "/page": "app/page.js",
   "/404/page": "app/404/page.js",
   "/addTopic/page": "app/addTopic/page.js",
-  "/login1/page": "app/login1/page.js",
   "/api/login/route": "app/api/login/route.js",
   "/api/topics/route": "app/api/topics/route.js",
   "/editTopic/[id]/page": "app/editTopic/[id]/page.js",
   "/login/page": "app/login/page.js",
   "/api/topics/[id]/route": "app/api/topics/[id]/route.js",
-  "/api/users/login/route": "app/api/users/login/route.js",
   "/api/users/signup/route": "app/api/users/signup/route.js",
+  "/api/users/login/route": "app/api/users/login/route.js",
   "/api/users/signup1/route": "app/api/users/signup1/route.js",
   "/profile/profileabout/page": "app/profile/profileabout/page.js"
 }

@@ -2,7 +2,19 @@
 import React from 'react';
 import St from "../../app/svg/st";
 
+
+  import { useEffect, useState } from 'react';
+
 function header1() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
     return (
 <header className="header">
     {/* HEADER ACTIONS */}

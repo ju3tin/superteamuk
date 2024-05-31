@@ -1,5 +1,19 @@
 import menuItems from '../Menuitem/menuItems.json';
+
+
+  import { useEffect, useState } from 'react';
+
 function SectionNavigation() {
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
     return (
 <nav className="section-navigation">
       {/* SECTION MENU */}

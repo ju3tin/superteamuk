@@ -1,4 +1,16 @@
+
+  import { useEffect, useState } from 'react';
+
 function chatwidget() {
+    const [isClient, setIsClient] = useState(false);
+  
+    useEffect(() => {
+      setIsClient(true);
+    }, []);
+  
+    if (!isClient) {
+      return null;
+    }
     return (
 <aside id="chat-widget-messages" className="chat-widget closed sidebar right">
     {/* CHAT WIDGET MESSAGES */}

@@ -290,17 +290,6 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 7165:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6249, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1522, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3100, 23))
-
-/***/ }),
-
 /***/ 7675:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -325,7 +314,15 @@ var styles_min = __webpack_require__(2468);
 var tiny_slider = __webpack_require__(4881);
 ;// CONCATENATED MODULE: ./components/Navigation/navwidget1/index.jsx
 
+
 function navwidget() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
         id: "navigation-widget-small",
         className: "navigation-widget navigation-widget-desktop closed sidebar left delayed",
@@ -528,7 +525,15 @@ function navwidget() {
 
 ;// CONCATENATED MODULE: ./components/Navigation/navwidget2/index.jsx
 
+
 function navwidget2_navwidget1() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
         id: "navigation-widget",
         className: "navigation-widget navigation-widget-desktop sidebar left hidden",
@@ -875,7 +880,15 @@ function navwidget2_navwidget1() {
 
 ;// CONCATENATED MODULE: ./components/Navigation/navwidget3/index.jsx
 
+
 function navwidget3_navwidget2() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
         id: "navigation-widget-mobile",
         className: "navigation-widget navigation-widget-mobile sidebar left hidden",
@@ -1268,7 +1281,15 @@ function navwidget3_navwidget2() {
 
 ;// CONCATENATED MODULE: ./components/Chat/chatwidget/index.jsx
 
+
 function chatwidget() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("aside", {
         id: "chat-widget-messages",
         className: "chat-widget closed sidebar right",
@@ -2125,7 +2146,15 @@ function chatwidget() {
 
 ;// CONCATENATED MODULE: ./components/Chat/chatwidget1/index.jsx
 
+
 function chatwidget1() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("aside", {
         id: "chat-widget-message",
         className: "chat-widget chat-widget-overlay hidden sidebar right",
@@ -2362,7 +2391,15 @@ function stlogo() {
 
 
 
+
 function header1() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
         className: "header",
         children: [
@@ -4609,7 +4646,15 @@ function header1() {
 
 ;// CONCATENATED MODULE: ./components/Bar/index.jsx
 
+
 function Bar1() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("aside", {
         className: "floaty-bar",
         children: [
@@ -4707,7 +4752,15 @@ function Bar1() {
 
 ;// CONCATENATED MODULE: ./components/Profile/header/index.jsx
 
+
 function Profileheader() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "profile-header",
         children: [
@@ -5065,7 +5118,15 @@ const menuItems_namespaceObject = JSON.parse('[{"id":"about","name":"profile","h
 ;// CONCATENATED MODULE: ./components/Section/Navigation/index.jsx
 
 
+
 function SectionNavigation() {
+    const [isClient, setIsClient] = (0,react_.useState)(false);
+    (0,react_.useEffect)(()=>{
+        setIsClient(true);
+    }, []);
+    if (!isClient) {
+        return null;
+    }
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
         className: "section-navigation",
         children: [
@@ -5134,11 +5195,15 @@ function SectionNavigation() {
 
 
 function ProfileAbout() {
+    /* useEffect(() => {
     const script = document.createElement("script");
     script.src = "/js/app.bundle.min.js";
     script.async = true;
     document.body.appendChild(script);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return () => {
+      document.body.removeChild(script);
+     }; 
+  }, []);*/ return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(navwidget1, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(navwidget2, {}),
@@ -5990,7 +6055,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,864,695], () => (__webpack_exec__(165)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,864,394], () => (__webpack_exec__(165)));
 module.exports = __webpack_exports__;
 
 })();

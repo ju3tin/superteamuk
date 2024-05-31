@@ -1,5 +1,18 @@
+import { useEffect, useState } from 'react';
+
 function navwidget() {
-    return (
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
+
+  return (
+    
 <nav id="navigation-widget-small" className="navigation-widget navigation-widget-desktop closed sidebar left delayed">
    
     <a className="user-avatar small no-outline online" href="profile-timeline.html">

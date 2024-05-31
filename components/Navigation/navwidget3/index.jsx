@@ -1,4 +1,16 @@
+import { useEffect, useState } from 'react';
+
+
 function navwidget2() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
     return (
 <nav id="navigation-widget-mobile" className="navigation-widget navigation-widget-mobile sidebar left hidden" data-simplebar>
 

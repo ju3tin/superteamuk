@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../styles/css/vendor/bootstrap.min.css';
 import '../../styles/css/styles.min.css' 
 import '../../styles/css/vendor/tiny-slider.css'
@@ -14,10 +14,15 @@ import Profileheader from '../../../components/Profile/header';
 import SectionNavigation from '../../../components/Section/Navigation';
 
 function ProfileAbout() {
-  const script = document.createElement("script");
-  script.src = "/js/app.bundle.min.js";
-  script.async = true;
-  document.body.appendChild(script);
+ /* useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "/js/app.bundle.min.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+     }; 
+  }, []);*/
   return (
     
     <div>

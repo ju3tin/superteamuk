@@ -1,4 +1,17 @@
+
+  import { useEffect, useState } from 'react';
+
+
 function Profileheader() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
     return (
 <div className="profile-header">
       {/* PROFILE HEADER COVER */}

@@ -1,4 +1,16 @@
+
+  import { useEffect, useState } from 'react';
+
 function Bar1() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
     return (
 <aside className="floaty-bar">
     {/* BAR ACTIONS */}
